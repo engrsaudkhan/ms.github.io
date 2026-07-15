@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-label="Custom basketball uniform display">
+<defs>
+<linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#232329"/><stop offset="1" stop-color="#070708"/></linearGradient>
+<linearGradient id="kit" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ef233c"/><stop offset=".48" stop-color="#b60f24"/><stop offset=".49" stop-color="#131316"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="32" stdDeviation="24" flood-opacity=".5"/></filter>
+</defs>
+<rect width="900" height="760" rx="48" fill="url(#back)"/>
+<path d="M0 600 900 350v410H0Z" fill="#ef233c" opacity=".08"/>
+<g filter="url(#shadow)" transform="translate(55 40) rotate(-4 390 330)">
+<path d="M240 130 320 90h140l80 40 110 105-76 68-50-53v345H256V250l-50 53-76-68Z" fill="url(#kit)" stroke="#050506" stroke-width="9"/>
+<path d="M240 132 319 225h143l78-93" fill="none" stroke="#fff" stroke-width="24" opacity=".95"/>
+<path d="M255 450h269" stroke="#ef233c" stroke-width="44" opacity=".9"/>
+<path d="M255 484h269" stroke="#fff" stroke-width="10" opacity=".95"/>
+<text x="390" y="325" text-anchor="middle" font-family="Arial" font-weight="900" font-size="38" letter-spacing="8" fill="#fff">WINNIPEG</text>
+<text x="390" y="455" text-anchor="middle" font-family="Arial" font-weight="900" font-style="italic" font-size="150" fill="#fff">24</text>
+</g>
+<g transform="translate(585 120)"><rect width="230" height="120" rx="22" fill="#fff"/><text x="28" y="42" font-family="Arial" font-weight="900" font-size="17" fill="#111">FULL CUSTOM</text><text x="28" y="73" font-family="Arial" font-size="15" fill="#555">Colours, logos, names</text><text x="28" y="96" font-family="Arial" font-size="15" fill="#555">and player numbers</text></g>
+<g transform="translate(68 590)"><rect width="280" height="94" rx="22" fill="#111" stroke="#3a3a40"/><circle cx="46" cy="47" r="20" fill="#ef233c"/><text x="82" y="42" font-family="Arial" font-weight="900" font-size="17" fill="#fff">BUILT FOR TEAMS</text><text x="82" y="67" font-family="Arial" font-size="14" fill="#aaa">Clubs, leagues and schools</text></g>
+</svg>
