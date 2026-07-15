@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1500" height="1500" viewBox="0 0 150 150"
+     role="img" aria-labelledby="title desc"
+     shape-rendering="geometricPrecision">
+  <title id="title">MS Sports logo</title>
+  <desc id="desc">White geometric MS shield with a red Canadian maple leaf on a black background.</desc>
+
+  <rect width="150" height="150" fill="#000000"/>
+
+  <polygon fill="#FFFFFF"
+           points="51,36 73,50 97,36 75,23"/>
+
+  <polygon fill="#FFFFFF"
+           points="30,48 30,98 37,103 43,51 74,69 106,52 108,104 118,98 118,48 103,40 75,57 45,40"/>
+
+  <polygon fill="#FFFFFF"
+           points="46,60 48,91 73,105 92,97 74,113 46,97 47,109 74,124 101,108 101,79 75,94 55,83 57,77 74,87 100,72 101,60 74,76"/>
+
+  <path fill="#E31B23"
+        d="M74 24
+           L72.5 27.5
+           L69.8 26.8
+           L70.7 30.2
+           L67.2 29.4
+           L68.2 32.8
+           L64.2 32.2
+           L66 35.7
+           L64.4 36.8
+           L71.2 41.7
+           L73.2 41.2
+           L73.2 44.5
+           L74.8 44.5
+           L74.8 41.2
+           L76.8 41.7
+           L83.6 36.8
+           L82 35.7
+           L83.8 32.2
+           L79.8 32.8
+           L80.8 29.4
+           L77.3 30.2
+           L78.2 26.8
+           L75.5 27.5
+           Z"/>
+</svg>
