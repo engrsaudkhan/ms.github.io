@@ -1,0 +1,24 @@
+{
+  "name": "MS Sports Pro Website",
+  "pages": [
+    "index.html",
+    "products.html",
+    "customize.html",
+    "team_orders.html",
+    "samples.html",
+    "repeat_orders.html",
+    "contact.html",
+    "size_guide.html"
+  ],
+  "entry": "index.html",
+  "assets": [
+    "assets/css/styles.css",
+    "assets/js/app.js",
+    "assets/images/logo.svg",
+    "assets/images/hero_kit.svg"
+  ],
+  "downloads": [
+    "downloads/team_roster_template.csv"
+  ],
+  "notes": "Static front end. Contact details and real photography must be added before launch."
+}

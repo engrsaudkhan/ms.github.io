@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Create a custom sports jersey concept using MS Sports colours, name, number and pattern controls."><meta name="theme-color" content="#0b0b0d"><title>Design Your Kit | MS Sports</title><link rel="icon" href="assets/images/logo.svg"><link rel="stylesheet" href="assets/css/styles.css"></head>
+<body data-page="customize">
+<div class="announcement">
+  <span>Custom team uniforms for clubs, schools and leagues</span>
+  <a href="contact.html">Request a free design mockup</a>
+</div>
+<div class="utility-bar">
+  <div class="utility-inner">
+    <span>Winnipeg, Manitoba</span>
+    <nav aria-label="Quick links">
+      <a href="samples.html">Order Samples</a>
+      <a href="customize.html">Design Service</a>
+      <a href="team_orders.html">Bulk Orders</a>
+      <a href="repeat_orders.html">Repeat Orders</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="MS Sports home">
+    <img src="assets/images/logo.svg" alt="MS Sports logo">
+    <span><strong>MS SPORTS</strong><small>Custom Teamwear</small></span>
+  </a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span><span class="sr-only">Open navigation</span></button>
+  <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+    <a href="index.html" data-nav="home">Home</a>
+    <a href="products.html" data-nav="products">Shop by Sport</a>
+    <a href="customize.html" data-nav="customize">Design Your Kit</a>
+    <a href="team_orders.html" data-nav="teams">Team Orders</a>
+    <a href="samples.html" data-nav="samples">Samples</a>
+  </nav>
+  <div class="header-actions">
+    <a class="quote-bag" href="contact.html#quote"><span>Quote List</span><b data-quote-count>0</b></a>
+    <a class="nav-cta" href="contact.html">Get a Quote</a>
+  </div>
+</header>
+<main>
+<section class="page-hero compact"><div class="wrap page-hero-grid"><div><p class="kicker">Interactive concept tool</p><h1>Design your kit direction.</h1><p>Choose colours, team name, number and a base pattern. Save the concept and send it with your quote request.</p></div><div class="page-hero-card"><span>CONCEPT PREVIEW</span><strong>This tool creates a starting direction. Final production artwork still needs approval.</strong></div></div></section>
+<section class="section"><div class="wrap"><div class="customizer" data-designer>
+<div class="control-panel"><p class="kicker">Kit controls</p><h2>Make it yours.</h2>
+<div class="control-group"><label>Sport<select id="sportSelect"><option>Basketball</option><option>Volleyball</option><option>Soccer</option><option>Hockey</option><option>Football</option><option>Baseball</option></select></label></div>
+<div class="color-row"><label>Primary<input type="color" id="primaryColor" value="#111111"></label><label>Accent<input type="color" id="accentColor" value="#ef233c"></label><label>Text<input type="color" id="textColor" value="#ffffff"></label></div>
+<div class="control-group"><label>Team name<input id="teamName" maxlength="16" value="WINNIPEG"></label><label>Player number<input id="playerNumber" maxlength="2" value="24" inputmode="numeric"></label><label>Pattern<select id="pattern"><option value="stripe">Bold stripe</option><option value="split">Split colour</option><option value="clean">Clean minimal</option></select></label></div>
+<div class="designer-actions"><button class="btn primary" type="button" id="saveDesigner">Save Concept</button><button class="btn ghost" type="button" id="downloadDesigner">Download SVG</button><button class="text-button" type="button" id="resetDesigner">Reset</button></div>
+<div class="saved-design" data-saved-design hidden></div>
+</div>
+<div class="preview-panel"><svg id="jerseySvg" class="jersey-preview" viewBox="0 0 600 700" role="img" aria-label="Custom jersey preview"><path id="jerseyBase" d="M188 86 250 50h100l62 36 102 105-74 78-56-49v394H216V220l-56 49-74-78Z" fill="#111111" stroke="#050505" stroke-width="10"/><path d="M247 58q53 82 106 0" fill="none" stroke="#f4f4f2" stroke-width="25"/><path id="jerseyAccent" d="M185 92 246 166h108l61-74M217 424h166" fill="none" stroke="#ef233c" stroke-width="25"/><path id="jerseyStripe" d="M220 471h160" fill="none" stroke="#ffffff" stroke-width="22"/><text id="jerseyTeam" x="300" y="310" text-anchor="middle" fill="#ffffff" font-size="45" font-family="Arial" font-weight="700" letter-spacing="8">WINNIPEG</text><text id="jerseyNumber" x="300" y="425" text-anchor="middle" fill="#ffffff" font-size="130" font-family="Arial" font-weight="800">24</text><text x="300" y="574" text-anchor="middle" fill="#ef233c" font-size="24" font-family="Arial" font-weight="700" letter-spacing="4">MS SPORTS</text></svg><div class="preview-note"><b>Concept only</b><span>Final artwork, fit, fabric and production details must be confirmed with MS Sports.</span></div></div>
+</div></div></section>
+<section class="section surface"><div class="wrap"><div class="section-head reveal"><p class="kicker">What to send next</p><h2>Give the design team enough information to work properly.</h2></div><div class="info-grid"><article><b>01</b><h3>Vector logo when possible</h3><p>SVG, EPS, AI or a clean high resolution PNG gives better artwork quality.</p></article><article><b>02</b><h3>Exact team colours</h3><p>Share colour codes or a clear reference. Screenshots alone can shift colour.</p></article><article><b>03</b><h3>Roster and sizes</h3><p>Use one organized player list with team, name, number, size and product.</p></article><article><b>04</b><h3>Target date</h3><p>State the date the uniforms must be in hand, not only the first game date.</p></article></div></div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand"><img src="assets/images/logo.svg" alt=""><h3>MS Sports</h3><p>Custom uniforms and coordinated teamwear for sports organizations in Winnipeg and beyond.</p><a class="instagram-link" href="https://www.instagram.com/mssports.ca/" target="_blank" rel="noreferrer">Instagram @mssports.ca</a></div>
+    <div class="footer-col"><h4>Shop</h4><a href="products.html">All Sports</a><a href="customize.html">Design Your Kit</a><a href="samples.html">Order Samples</a><a href="size_guide.html">Size Guide</a></div>
+    <div class="footer-col"><h4>Teams</h4><a href="team_orders.html">Club Orders</a><a href="repeat_orders.html">Repeat Orders</a><a href="downloads/team_roster_template.csv" download>Roster Template</a><a href="contact.html">Request Pricing</a></div>
+    <div class="footer-col"><h4>Sports</h4><a href="products.html#basketball">Basketball</a><a href="products.html#volleyball">Volleyball</a><a href="products.html#soccer">Soccer</a><a href="products.html#hockey">Hockey</a><a href="products.html#football">Football</a></div>
+  </div>
+  <div class="wrap footer-bottom"><span>© <span data-year></span> MS Sports. All rights reserved.</span><span>Winnipeg, Manitoba, Canada</span></div>
+</footer>
+<div class="toast" role="status" aria-live="polite" data-toast></div>
+<script src="assets/js/app.js"></script>
+</body></html>
