@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="t d">
-<title id="t">MS Sports</title><desc id="d">Hexagonal MS Sports emblem with a red maple leaf</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#242428"/><stop offset="1" stop-color="#050506"/></linearGradient></defs>
-<path d="M120 8 214 61v118l-94 53-94-53V61Z" fill="url(#bg)" stroke="#ef233c" stroke-width="9"/>
-<path d="M56 153V86h22l42 43 42-43h22v67h-22v-35l-42 42-42-42v35Z" fill="#fff"/>
-<path d="M120 28l7 16 16-6-6 17 15 7-16 6 5 17-14-10-7 17-7-17-14 10 5-17-16-6 15-7-6-17 16 6Z" fill="#ef233c"/>
-</svg>
